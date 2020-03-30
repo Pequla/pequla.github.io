@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<meta name="description" content=""/>
-		<meta name="keywords" content=""/>
+		<meta name="description" content="Karantinko je internet radio stanica nove generacije, mi nemamo reklame što znači da slušate samo kvalitetnu muzku 24/7"/>
+		<meta name="keywords" content="online, radio, karantinko, ostanikodkuce"/>
 		<meta name="author" content="Petar Kresoja"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Karantinko</title>
+		<title>Početna :: Karantinko</title>
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
@@ -16,23 +16,98 @@
 		<nav>
 			<div class="nav-wrapper blue">
 				<a href="#" class="brand-logo">Karantinko</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li class="active"><a href="#">Početna</a></li>
+					<li><a href="#">O nama</a></li>
+					<li><a href="#">Pomoć</a></li>
+				</ul>
 			</div>
 		</nav>
 		<div class="container">
-			<h3 class="title">Online radio #ostanikodkuce</h3>
-			<audio>
-				<source src="http://karantinko.ddns.net:8000" type="audio/mpeg">
-				Your browser does not support the audio element.
-			</audio>
-			<br/>
-			<a href="files/KARANTINKO.pls">PREUZMI ZA WINAMP 192KBPS</a>
-			<br/>
-			<a href="http://karantinko.ddns.net:8000/;?type=http&nocache=12.pls">SLUSAJ LIVE</a>
+			<h3>Karantinko - Online radio #ostanikodkuce</h3>
+			<div class="row">
+				<div class="col s12">
+					<div class="card horizontal">
+						<div class="card-stacked">
+							<div class="card-content">
+								<span class="card-title">Slušaj uživo</span>
+								<audio controls>
+									<source src="http://petarproxy.ddns.net:8000/;?type=http&nocache=12" type="audio/mpeg">
+								</audio>
+							</div>
+							<div class="card-action">
+								<a href="files/KARANTINKO.pls">Preuzmi PLS (192kbps) Winamp/VLC</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s6">
+					<div class="card large">
+						<div class="card-image">
+							<img src="img/pic1.jpg" alt="logo"/>
+						</div>
+						<div class="card-content">
+							<p>Radio stanicu Karantinko možete slušati na više načina, to možete učiniti preko vašeg browsera ili preko <a href="#">Winamp</a> muzičkog plejera preuzimanjem playlist file-a. Takodje na pametnim telefonima možete preuzeti bilo koju aplikaciju za puštanje radio stanica i u nju ukucati link stream-a</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s6">
+					<div class="card large">
+						<div class="card-image">
+							<img src="img/pic2.jpg" alt="radiologo"/>
+						</div>
+						<div class="card-content">
+							<p>Karantinko je radio stanica namenjena svim uzrastima, od muzike možete očekivati sve žanrove od laganog jazza pa sve do komercijale (u zavisnosti od doba dana). Raspored još uvek ne postoji, što znači da po želji slušalaca možemo puštati muziku. Podelite link do radio stanice sa prijateljima i uživajte u zajedničkim trenutcima !</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card-panel blue">
+						<span class="white-text">Web stranica kao i sama radio stanica su još uvek u fazi razvoja, molimo da to uzmete u obzr. Ako primetite da postoje neispravnosti u nekom delu websajta molimo vas da nas kontaktirate.</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="card horizontal">
+						<div class="card-stacked">
+							<div class="card-content">
+								<span class="card-title">Postani DJ</span>
+								<p>Želiš da ti puštaš muziku ili da tvoja pesma ide online ? Nema problema stupite u kontakt sa nama i dogovorićemo se oko svega. Mala napomena: Ova radio stanica nema reklame pa samim tim nema ni zaradu, ne očekujte da vaš materijal bude plaćen</p>
+							</div>
+							<div class="card-action">
+								<a href="mailto:freego146@gmail.com?subject=DJ PRIJAVA">Pošalji e-mail</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<footer class="page-footer blue">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Karantinko</h5>
+						<p class="grey-text text-lighten-4">Online radio nove generacije</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Navigacija</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="#">Početna</a></li>
+							<li><a class="grey-text text-lighten-3" href="#">O nama</a></li>
+							<li><a class="grey-text text-lighten-3" href="#">Pomoć</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<div class="footer-copyright">
 				<div class="container">
 					© 2020 Karantinko
+					<a class="grey-text text-lighten-4 right" href="https://pequla.github.io/">By: Pequla</a>
 				</div>
 			</div>
         </footer>

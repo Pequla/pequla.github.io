@@ -1,0 +1,51 @@
+@font-face {
+    font-family: riffic;
+    src: url("../font/riffic.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    color: white;
+    font-family: riffic;
+}
+
+.title-main {
+    font-size: 46pt;
+}
+
+.title-alt {
+    font-size: 28pt;
+}
+
+body {
+    background-color: #001220;
+    background-image: url('../img/background.svg');
+}
+
+.center {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+}
+
+.link {
+    margin-top: 3rem;
+    padding: 3pt;
+}
+
+.link div {
+    font-size: 16pt;
+    margin: 0 0.2rem;
+    text-transform: uppercase;
+    border: solid white;
+    display: inline;
+    font-weight: bolder;
+    padding: 6pt;
+    cursor: pointer;
+}
+
+.link div:hover {
+    background-color: #004060;
+}
